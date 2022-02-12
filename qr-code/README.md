@@ -22,8 +22,8 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
 
 ### Links
 
-- Código: (https://github.com/eduardonobrega/html-css/tree/main/desafios/qr-code)
-- Site ao vivo: (https://eduardonobrega.github.io/html-css/desafios/qr-code/)
+- Código: (https://github.com/eduardonobrega/frontend-mentor/tree/main/qr-code)
+- Site ao vivo: (https://eduardonobrega.github.io/frontend-mentor/qr-code/)
 
 
 ## Meu processo
