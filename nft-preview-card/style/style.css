@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* Font Outfit (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    /* Primary */
+    --Primary1: #8bacda;
+    --Primary2: #00fff7;
+
+    /* Neutra */
+    --neutral1: #0d192b;
+    --neutral2: #14253d;
+    --neutral3: #2f415b;
+    --neutral4: #ffffff;
+
+    --font: 'Outfit', sans-serif;;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    font-family: var(--font);
+    background-color: var(--neutral1);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    background-color: var(--neutral2);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+div#img {
+    background: black url('../images/image-equilibrium.jpg') center center no-repeat;
+    background-size: 100%;
+    height: 260px;
+    border-radius: 10px;
+}
+
+div#img-hover {
+    position: relative;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+div#img-hover > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#img:hover div#img-hover {
+    opacity: 1;
+}
+
+main > h1 {
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+main a {
+    text-decoration: none;
+    color: var(--neutral4);
+}
+
+main a:hover {
+    color: var(--Primary2);
+}
+
+
+main > p {
+    color: var(--Primary1);
+    font-weight: 300;
+}
+
+img#et, img#time {
+    margin-right: 5px;
+}
+
+div#valor, div#data {
+    margin: 15px 0px;   
+}
+
+div#valor {
+    color: var(--Primary2);
+    
+}
+
+div#data {
+    color: var(--Primary1);
+    float: right;
+}
+
+hr {
+    border-color: var(--Primary1);
+    margin-bottom: 15px;
+}
+
+img#avatar {
+    float: left;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+div#autor > p {
+    line-height: 2rem;
+    color: var(--Primary1);
+}
+
+div#autor a {
+    color: var(--neutral4);
+    text-decoration: none;
+}
+
+div#autor a:hover {
+    color: var(--Primary2);
+}
