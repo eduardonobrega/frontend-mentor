@@ -1,1 +1,1 @@
-<a href="https://eduardonobrega.github.io/frontend-mentor/qr-code/" target="_blank" rel="external>Qr code</a>
+<a href="https://eduardonobrega.github.io/frontend-mentor/qr-code/">Qr code</a>
