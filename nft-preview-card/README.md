@@ -16,8 +16,8 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
 
 ### Screenshot
 
-![](./screenshot/screenshot-1.png)
-![](./screenshot/screenshot-2.png)
+![](./screenshot/Screenshot_1.png)
+![](./screenshot/Screenshot_2.png)
 
 ### Links
 
