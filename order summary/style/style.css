@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* Fonte Red Hat Display */ 
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    /* Primary */
+
+    --palelue: #e0e8ff;
+    --brightblue: #3829e0;
+
+    /* Neutral */
+
+    --verypaleblue: #f5f7ff;
+    --desaturatedblue: #7280a7;
+    --darkblue: #1f2f56;
+
+    /* Fonts */
+    --font: 'Red Hat Display', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font);
+    height: 100vh;
+    background: var(--verypaleblue) url('../images/pattern-background-desktop.svg') no-repeat;
+
+}
+
+main {
+    max-width: 400px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img#hero {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+div.container {
+    padding: 40px;
+}
+
+h1 {
+    color: var(--darkblue);
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 20px 0;
+    color: var(--desaturatedblue);
+}
+
+div#plan {
+    background-color: var(--verypaleblue);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img#icon {
+    float: left;
+}
+div#value {
+    float: left;
+    margin-left: 20px;
+}
+
+.forte {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.fraco {
+    color: var(--desaturatedblue);
+    font-size: 0.9em;
+}
+
+a#change {
+    float: right;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    color: var(--verypaleblue);
+    background-color: var(--brightblue);
+    font-weight: bold;
+    box-shadow: 0px 25px 15px #e6e4f9;
+}
+
+input:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a#cancel {
+    text-decoration: none;
+    color: var(--desaturatedblue);
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+a#cancel:hover {
+    color: #000000;
+}
+
+@media screen and (max-width: 370px){
+    div#plan {
+        text-align: center;
+    }
+    img#icon {
+        float: none;
+    }
+
+    div#value {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+
+    a#change {
+        float: none;
+    }
+}
