@@ -1,4 +1,4 @@
-# Frontend Mentor - solução de preview card de um NFT
+# Frontend Mentor - solução de Order summary component
 
 Esta é uma solução para o [desafio do componente de código QR no Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
