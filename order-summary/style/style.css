@@ -34,15 +34,14 @@ html {
 
 body {
     font-family: var(--font);
-    height: 100vh;
+    min-height: 96vh;
     background: var(--verypaleblue) url('../images/pattern-background-desktop.svg') no-repeat;
-
 }
 
 main {
     max-width: 400px;
     background-color: #fff;
-    margin: auto;
+    margin: 10px auto 0 auto;
     border-radius: 20px;
     text-align: center;
 }
