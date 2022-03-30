@@ -87,6 +87,7 @@ li {
 li:hover {
     background-color: var(--MediumGrey);
     color: white;
+    cursor: pointer;
 }
 
 li:active {
@@ -109,4 +110,5 @@ input {
 input:hover {
     background-color: white;
     color: var(--Orange);
+    cursor: pointer;
 }
