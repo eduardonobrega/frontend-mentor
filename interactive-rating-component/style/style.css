@@ -40,6 +40,7 @@ body {
 main {
     max-width: 400px;
     min-width: 315px;
+    min-height: 320px;
     margin: auto;
     color: #ffffff;
     background-color: var(--DarkBlue);
@@ -64,14 +65,18 @@ p {
     
 }
 
-ul {
+form {
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin: 15px 0;
 }
 
-li {
+form input {
+    display: none;
+}
+
+label {
     color: var(--MediumGrey);
     background-color: var(--DarkBlue);
     filter: brightness(130%);
@@ -84,14 +89,19 @@ li {
     border-radius: 100%;
 }
 
-li:hover {
+label:hover {
     background-color: var(--MediumGrey);
     color: white;
     cursor: pointer;
 }
 
-li:active {
+label:active {
     background-color: var(--Orange);
+}
+
+form input:checked + label {
+    background-color: var(--Orange);
+    color: white;
 }
 
 input {
@@ -111,4 +121,14 @@ input:hover {
     background-color: white;
     color: var(--Orange);
     cursor: pointer;
+}
+
+p#feedback {
+    color: var(--Orange);
+    background-color: var(--DarkBlue);
+    filter: brightness(130%);
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
 }

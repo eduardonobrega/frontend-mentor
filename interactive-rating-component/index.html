@@ -14,17 +14,26 @@
         <h1>How did we do? </h1>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering! </p>
         
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
-        
-        <input type="submit" value="Submit"></input> 
-        
-        <!-- You selected out of 5 Thank you! We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch! -->
+        <form action="">
+            <input type="radio" name="radio" id="rd-1" value="1" onclick="number(1)">
+            <label for="rd-1">1</label>
+
+            <input type="radio" name="radio" id="rd-2" value="2" onclick="number(2)">
+            <label for="rd-2">2</label>
+
+            <input type="radio" name="radio" id="rd-3" value="3" onclick="number(3)">
+            <label for="rd-3">3</label>
+
+            <input type="radio" name="radio" id="rd-4" value="4" onclick="number(4)">
+            <label for="rd-4">4</label>
+
+            <input type="radio" name="radio" id="rd-5" value="5" onclick="number(5)">
+            <label for="rd-5">5</label>
+        </form>
+
+        <input type="submit" value="Submit" onclick="thanks()"></input> 
+
+        <script src="script.js"></script>
     </main>
 </body>
 </html>
