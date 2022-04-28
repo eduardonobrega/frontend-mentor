@@ -17,7 +17,7 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
 
 ### Screenshot
 
-![](./screenshot/screenshot.wmv)
+![](./screenshot/screenshot.gif)
 
 ### Links
 
