@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --font1: 'Inter', sans-serif;
+    --font2: 'Lexend Deca', sans-serif;    
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #090b1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    width: 1000px;
+    height: 350px;
+}
+
+div#txt {
+    font-family: var(--font1);
+    color: white;
+    background-color: #1b1938;
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    
+}
+
+div#content {
+    padding: 50px 10% 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+p {
+    color: #ffffffbf;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+.big {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.small {
+    font-family: var(--font2);
+    font-size: 0.8em;
+    color: #ffffff99;
+}
+
+div#img {
+    width: 50%;
+    background: #1b1938 url('images/image-header-desktop.jpg') no-repeat right top / cover;
+    border-radius: 0 10px 10px 0px;
+    overflow: hidden; 
+}
+
+div#filter {
+    height: 100%;
+    background-color: #5819807c;
+}
+
+
+
+@media screen and (max-width: 615px){
+    main {
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+    }
+
+    div#img {
+        height: 50%;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        order: -1; 
+        overflow: hidden;
+        flex-shrink: 0;   
+    }
+
+    div#txt {
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        
+    }
+
+    div#content {
+        text-align: center;
+        align-items: center;
+        padding: 25px 30px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        margin: 0;
+        margin-top: 10px;
+        font-size: 0.9em;
+    }
+
+    ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    li {
+        margin-top: 25px;
+    }
+    
+
+}
