@@ -1,6 +1,6 @@
 # Frontend Mentor - solução de componente de QR code
 
-Esta é uma solução para o [desafio do componente de código QR no Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+Esta é uma solução para o [desafio do componente de código QR no Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
 ## Índice
 
@@ -17,13 +17,12 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
 
 ### Screenshot
 
-![](./screenshot/screenshot-1.png)
-![](./screenshot/screenshot-2.png)
+![](./screenshot/screenshot.wmv)
 
 ### Links
 
-- Código: (https://github.com/eduardonobrega/frontend-mentor/tree/main/qr-code)
-- Site ao vivo: (https://eduardonobrega.github.io/frontend-mentor/qr-code/)
+- Código: (https://github.com/eduardonobrega/frontend-mentor/tree/main/preview-card-flexbox)
+- Site ao vivo: (https://eduardonobrega.github.io/frontend-mentor/preview-card-flexbox/)
 
 
 ## Meu processo
@@ -31,17 +30,15 @@ Esta é uma solução para o [desafio do componente de código QR no Frontend Me
 ### Construído com
 - Marcação HTML5 semântica
 - Propriedades personalizadas de CSS
+- Flexbox
 
 ### O que eu aprendi
 
-Foi nescessário uma pesquisa para saber como gerar um qr code, foi útil para o projeto e me será útil para projetos futuros.
-
-consegui revisar conseitos de alinhamento horizontal e vertical, resposividade mais básicos que não foram nescessário o uso de Media queries.
+Esse foi o meu primeiro projeto que usei o Flexbox do CSS, consegui colocar em prática o conhecimento e o card ficou bem responsivo.
 
 ### Recursos úteis
 
-QR Code Generator - (https://www.qr-code-generator.com/)
-com o ele consegui criar grátis um qr code FUNCIONAL e PERSONALIZAVEL
+Guia para aprender Flexbox - (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Autor
 
