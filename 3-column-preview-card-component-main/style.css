@@ -36,6 +36,7 @@ main {
     font-family: var(--font2);
     border-radius: 10px;
     overflow: hidden;
+    justify-content: center;
 }
 
 div {
