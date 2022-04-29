@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --font1: 'Big Shoulders Display', cursive;    
+    --font2: 'Lexend Deca', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    color: white;
+    font-family: var(--font2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+    color: #f2f2f2;
+}
+
+
+div#sedans {
+    background-color:#e38826;
+}
+
+div#suvs {
+    background-color: #006970;
+}
+
+div#luxury {
+    background-color: #004241;
+}
+
+h1 {
+    font-family: var(--font1);
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+p {
+    width: 210px;
+    color: #ffffffbf;
+    margin-bottom: 80px;
+    line-height: 1.5em;
+    
+}
+
+div#sedans > button {
+    color: #e38826;
+}
+
+div#suvs  > button {
+    color: #006970;
+}
+
+div#luxury > button {
+    color: #004241;
+}
+
+button {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: #f2f2f2 solid 2px;
+    border-radius: 20px;
+    width: 60%;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: #f2f2f2 !important;
+}
