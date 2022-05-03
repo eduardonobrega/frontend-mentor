@@ -26,17 +26,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 0;
 }
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    background-color: gray;
+    flex-flow: row wrap;
     color: white;
     font-family: var(--font2);
-    border-radius: 10px;
     overflow: hidden;
     justify-content: center;
+
 }
 
 div {
@@ -58,7 +58,11 @@ div#suvs {
 }
 
 div#luxury {
-    background-color: #004241;
+    background-color: #004241;   
+}
+
+div#aux {
+    flex-basis: 270px;
 }
 
 h1 {
